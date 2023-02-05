@@ -36,13 +36,13 @@ public:
 	/**
 	* The time in seconds after the beginning of the song when this note should be hit by the player.
 	*/
-	UPROPERTY(EditAnywhere, Category = MIDI)
-		float Timestamp;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = MIDI)
+	float Timestamp;
 
 	/**
 	* Where the bubble corresponding to this note should spawn.
 	*/
-	UPROPERTY(EditAnywhere, Category = MIDI)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = MIDI)
 	TEnumAsByte<ENotePosition> Position;
 
 	/**
