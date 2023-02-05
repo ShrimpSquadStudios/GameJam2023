@@ -52,7 +52,7 @@ public:
 	// float Length;
 };
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( Blueprintable, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SHRIMPOK_API UShrimpMusicComponent : public UActorComponent
 {
 	GENERATED_BODY()
