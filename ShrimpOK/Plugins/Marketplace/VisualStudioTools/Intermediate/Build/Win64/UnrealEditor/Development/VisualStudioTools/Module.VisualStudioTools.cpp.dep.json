@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\intermediate\\build\\win64\\unrealeditor\\development\\visualstudiotools\\module.visualstudiotools.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\git\\gamejam2023\\shrimpok\\intermediate\\build\\win64\\shrimpokeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\intermediate\\build\\win64\\unrealeditor\\development\\visualstudiotools\\definitions.visualstudiotools.h",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\intermediate\\build\\win64\\unrealeditor\\inc\\visualstudiotools\\uht\\visualstudiotools.init.gen.cpp",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\intermediate\\build\\win64\\unrealeditor\\inc\\visualstudiotools\\uht\\visualstudiotoolscommandlet.gen.cpp",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\source\\visualstudiotools\\private\\visualstudiotoolscommandlet.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\commandlets\\commandlet.h",
+            "c:\\program files\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\commandlet.generated.h",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\intermediate\\build\\win64\\unrealeditor\\inc\\visualstudiotools\\uht\\visualstudiotoolscommandlet.generated.h",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\source\\visualstudiotools\\private\\visualstudiotools.cpp",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\source\\visualstudiotools\\public\\visualstudiotools.h",
+            "c:\\git\\gamejam2023\\shrimpok\\plugins\\marketplace\\visualstudiotools\\source\\visualstudiotools\\private\\visualstudiotoolscommandlet.cpp",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "c:\\program files\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectconverter.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\dom\\jsonobject.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\dom\\jsonvalue.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\jsonglobals.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectwrapper.h",
+            "c:\\program files\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\jsonutilities\\uht\\jsonobjectwrapper.generated.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\serialization\\jsonreader.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializer.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\runtime\\json\\public\\policies\\condensedjsonprintpolicy.h",
+            "c:\\program files\\ue_5.1\\engine\\source\\editor\\unrealed\\public\\sourcecodenavigation.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
