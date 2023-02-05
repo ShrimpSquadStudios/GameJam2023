@@ -49,6 +49,36 @@ void AShrimpOKPlayerController::SetupInputComponent()
 		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
 		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
 		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
+
+		// Setup move left events
+		EnhancedInputComponent->BindAction(MoveLeftAction, ETriggerEvent::Started, this, &AShrimpOKPlayerController::OnInputStarted);
+		EnhancedInputComponent->BindAction(MoveLeftAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
+		EnhancedInputComponent->BindAction(MoveLeftAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(MoveLeftAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
+
+		// Setup move right events
+		EnhancedInputComponent->BindAction(MoveRightAction, ETriggerEvent::Started, this, &AShrimpOKPlayerController::OnInputStarted);
+		EnhancedInputComponent->BindAction(MoveRightAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
+		EnhancedInputComponent->BindAction(MoveRightAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(MoveRightAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
+
+		// Setup move up events
+		EnhancedInputComponent->BindAction(MoveUpAction, ETriggerEvent::Started, this, &AShrimpOKPlayerController::OnInputStarted);
+		EnhancedInputComponent->BindAction(MoveUpAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
+		EnhancedInputComponent->BindAction(MoveUpAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(MoveUpAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
+
+		// Setup move down events
+		EnhancedInputComponent->BindAction(MoveDownAction, ETriggerEvent::Started, this, &AShrimpOKPlayerController::OnInputStarted);
+		EnhancedInputComponent->BindAction(MoveDownAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
+		EnhancedInputComponent->BindAction(MoveDownAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(MoveDownAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
+
+		// Setup play note events
+		EnhancedInputComponent->BindAction(PlayNoteAction, ETriggerEvent::Started, this, &AShrimpOKPlayerController::OnInputStarted);
+		EnhancedInputComponent->BindAction(PlayNoteAction, ETriggerEvent::Triggered, this, &AShrimpOKPlayerController::OnTouchTriggered);
+		EnhancedInputComponent->BindAction(PlayNoteAction, ETriggerEvent::Completed, this, &AShrimpOKPlayerController::OnTouchReleased);
+		EnhancedInputComponent->BindAction(PlayNoteAction, ETriggerEvent::Canceled, this, &AShrimpOKPlayerController::OnTouchReleased);
 	}
 }
 
