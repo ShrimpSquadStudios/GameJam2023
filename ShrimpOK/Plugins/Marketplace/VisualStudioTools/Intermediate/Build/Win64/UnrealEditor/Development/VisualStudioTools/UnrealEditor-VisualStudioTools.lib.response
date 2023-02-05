@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VisualStudioTools.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Git\GameJam2023\ShrimpOK\Intermediate\Build\Win64\ShrimpOKEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"C:\Git\GameJam2023\ShrimpOK\Plugins\Marketplace\VisualStudioTools\Intermediate\Build\Win64\UnrealEditor\Development\VisualStudioTools\Module.VisualStudioTools.cpp.obj"
+"C:\Git\GameJam2023\ShrimpOK\Plugins\Marketplace\VisualStudioTools\Intermediate\Build\Win64\UnrealEditor\Development\VisualStudioTools\Default.rc2.res"
+/OUT:"C:\Git\GameJam2023\ShrimpOK\Plugins\Marketplace\VisualStudioTools\Intermediate\Build\Win64\UnrealEditor\Development\VisualStudioTools\UnrealEditor-VisualStudioTools.lib"

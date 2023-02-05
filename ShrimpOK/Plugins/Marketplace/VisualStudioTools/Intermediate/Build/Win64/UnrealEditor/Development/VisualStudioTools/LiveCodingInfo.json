@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VisualStudioTools.cpp.obj": [
+			"VisualStudioTools.init.gen.cpp.obj",
+			"VisualStudioToolsCommandlet.gen.cpp.obj",
+			"VisualStudioTools.cpp.obj",
+			"VisualStudioToolsCommandlet.cpp.obj"
+		]
+	}
+}
